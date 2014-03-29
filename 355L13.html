@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<script>
+			 function displayPic()
+            		{
+                		if (document.getElementById("text1").style.display == "none")
+                		{
+                    			document.getElementById("text1").style.display="block";
+                    			document.getElementById("showhide").innerHTML="Hide Text";
+                		}
+                		else
+                		{
+                    			document.getElementById("text1").style.display="none";
+                    			document.getElementById("showhide").innerHTML="Show Text";
+                		}
+            		}
+		</script>
+		<style>
+		#header {background-color:#FFA500;margin-left:20px}
+		#menu {background-color:#FFD700;height:425px;width:100px;float:left;margin-left:20px}
+		#content {background-color:#EEEEEE;height:425px;width:1000px;float:left;}
+		#footer {background-color:#FFA500;clear:both;text-align:center;margin-left:20px}
+		p {margin-left:0px;}
+		body {margin-left:20px;display:inline;}
+		a:link {color:#0033CC;}
+		a:visited {color:#660066;}
+		a:hover {color:#FF00FF;text-decoration:underline;}
+		a:active {color:0000FF;text-decoration:underline;}
+		ul {list-style-type:square;padding:0px;margin-left:40px;}
+		ol {list-style-type:number;padding:0px;margin-left:40px;}
+		table, th, td {border:0px solid black;width:50%;}
+		th {color:white;padding:5px;background-color:gray;}
+		td {text-align:left;vertical-align:bottom;padding:0px;}
+		</style>
+		
+		<title>
+			Lab 13
+		</title>
+	</head>
+	<body>
+		<!-- Comment for Das Webpage -->
+		<div id="header">
+			<img src="http://www.cs.sonoma.edu/~haderman/cs355/assignments/cs355lab13.png" alt="title page" />
+		</div>
+		<div id="menu">
+			<b>Menu</b><br />
+			<a href="http://www.cs.sonoma.edu/~haderman/cs355/">CS355</a><br />
+			<a href="https://github.com/Blaaaaarg">CS355 Lab 13</a><br />
+			<a href="http://www.cs.sonoma.edu/">SSU CS Dept</a>
+		</div>
+		<div id="content">
+			<table>
+				<tr>
+					<th>Number</th>
+					<th>Name</th>
+					<th>Professor</th>
+				</tr>
+				<tr>
+					<td>CS355</td>
+					<td>Database Design</td>
+					<td>Haderman</td>	
+				</tr>
+				<tr>
+					<td>CS370</td>
+					<td>Software Engineering</td>
+					<td>Ledin</td>
+				</tr>
+				<tr>
+					<td>CS315</td>
+					<td>Data Structures</td>
+					<td>Ravikumar</td>
+				</tr>
+				<tr>
+					<td>CS252</td>
+					<td>Computer Organization</td>
+					<td>Lyle</td>
+				</tr>
+			</table>	
+			<p>What I have learned this semester:</p>
+			<ol>
+				<li>MySQL</li>
+				<li>Binary and AVL Trees</li>
+				<li>Scrum</li>
+			</ol>
+			<p>What I want to learn:</p>
+			<ul>
+				<li>HTML 5 and CSS</li>
+				<li>Java</li>
+				<li>Quad Trees</li>
+			</ul>
+			<button id="showhide" type="button" onclick="displayPic()">Show Text</button>
+			<p id="text1" style="display:none;">Hello!</p>
+		</div>
+		<div id="footer">
+			<p>Created for CS355 Lab 13</p>
+		</div>
+	</body>
+</html>

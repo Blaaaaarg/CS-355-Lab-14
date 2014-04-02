@@ -1,0 +1,153 @@
+#header 
+{
+    background: -moz-linear-gradient(right, #000066, #669999);
+    margin-top:0px;
+    margin-left:0px;
+    margin-bottom:10px;
+    font-size:40px;
+    font-family:"Arial", Arial, sans-serif;
+    padding:10px;
+    text-shadow: 4px 4px 15px #FFFFFF;
+    box-shadow:0px 10px 5px #888888;
+    border-style:inset;
+    border-width:5px;
+    border-color:#4E4E4E;
+}
+
+#menu
+{
+    background: -moz-linear-gradient(#669999, #669933);
+    height:100%;
+    width:100px;
+    float:left;
+    margin-left:0px;
+    margin-bottom:0px;
+    padding:5px;
+    text-align:center;
+    box-shadow:10px 10px 5px #888888;
+    border-style:inset;
+    border-width:5px;
+    border-color:#4E4E4E;
+}
+
+#content
+{
+    height:480px;
+    width:640px;
+    /*clear:both;*/
+    text-align:center;
+    margin-left:10px;
+    margin-bottom:80px;
+    float:left;
+}
+
+#footer
+{
+    background-color:#339966;
+    clear:both;
+    text-align:center;
+    margin-left:0px;
+    margin-top:0px;
+}
+
+#elevator
+{
+    text-align:left;
+    margin-left:10px;
+    margin-top:10px;
+    font-size:30px;
+}
+
+body
+{
+    margin:0px;
+    display:inline;
+    background-color:#BCCACA;
+}
+
+p
+{
+    text-align:left;
+    font-family:"Times New Roman", Times, serif;
+}
+
+h1
+{
+    font-family:"Arial", Arial, sans-serif;
+}
+
+h2
+{
+    font-family:"Arial", Arial, sans-serif;
+    font-size:25px;
+    padding:0px;
+    margin:0px;
+    text-decoration:underline;
+}
+
+a:link
+{
+    color:#0033CC;
+}
+a:visited
+{
+    color:#660066;
+}
+a:hover
+{
+    color:#FF00FF;
+    text-decoration:underline;
+}
+a:active
+{
+    color:#0000FF;
+    text-decoration:underline;
+}
+
+ul
+{
+    list-style-type:square;
+    padding:0px;
+}
+
+ol
+{
+    list-style-type:number;
+    padding:0px;
+}
+
+table
+{
+    width:100%;
+}
+
+table, th, td
+{
+    border:1px solid black;
+    border-collapse:collapse;
+}
+
+th
+{
+    color:white;
+    padding:10px;
+    background-color:gray;
+}
+
+td
+{
+    text-align:left;
+    vertical-align:bottom;
+    padding:5px;
+}
+
+tr
+{
+    background-color:#DDDDDD;
+}
+
+.dark_row
+{
+    background-color:#B8E6E6;
+}
+

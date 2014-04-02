@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homesite.css">
+        <title>Home</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+        </script>
+        <script>
+            $(document).ready(function(){
+                    $("#jqshowhide").click(function(){
+                        $("#img1").toggle();
+                        });
+                    });
+        </script>
+        <script>
+            function displayPic()
+            {
+                if (document.getElementById("img1").style.display == "none")
+                {
+                    document.getElementById("img1").style.display="block";
+                    document.getElementById("showhide").innerHTML="Hide Picture";
+                }
+                else
+                {
+                    document.getElementById("img1").style.display="none";
+                    document.getElementById("showhide").innerHTML="Show Picture";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="header">
+            <b>Welcome</b>
+        </div>
+        <div id="menu">
+            <h2>Menu</h2>
+            <a href="index.html">Home</a><br />
+            <a href="https://www.github.com/Blaaaaarg/">Github</a><br />
+            <a href="https://news.ycombinator.com/">Hacker News</a><br />
+            <a href="http://www.flickr.com/photos/98138516@N08/">Photostream</a><br />
+            <a href="https://piazza.com/sonoma/spring2014/cs315/home">315 Site</a><br />
+            <a href="schedule.html">Class Schedule</a>
+        </div>
+            <div id="content">
+                <b>Arbor Vitae</b>
+                <button id="showhide" type="button" onclick="displayPic()">Display Picture</button>
+                <button id="jqshowhide">Show/Hide</button>
+                <img id="img1" src="https://farm6.staticflickr.com/5346/9313522810_f9e1da829b_z.jpg" width="640" height="480" alt="ArborVitaeE" style="display:none;">
+            </div>
+        <div id="footer">
+            <p>Updated 3/26</p>
+        </div>
+    </body>
+</html>
